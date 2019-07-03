@@ -1,0 +1,23 @@
+{
+    "name": "mindedge/cloudwatch-logger",
+    "description": "A cloudwatch log handler for monolog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike McGrath",
+            "email": "mmcgrath@mindedge.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^1.24",
+        "aws/aws-sdk-php": "^3.104",
+        "vlucas/phpdotenv": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mindedge\\CloudwatchLogger\\": "src/"
+        }
+    }
+}
